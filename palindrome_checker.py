@@ -1,6 +1,6 @@
 inpt = input("Enter a string or number to check if it's a palindrome: ")
 
-# remove spaces and conver to lowercase
+# remove spaces and convert to lowercase
 new_inpt = inpt.replace(" ", "").lower()
 
 reversed_inpt = new_inpt[::-1]
