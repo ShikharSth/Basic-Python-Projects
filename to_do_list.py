@@ -36,5 +36,9 @@ while True:
         else:
             print("Your to-do list might be empty.")
     
-    
+    elif choice == '4':
+        print("Exiting the to-d0 list application, goodbye!")
+        break
 
+    else:
+        print("Invalid choice. Please choose a number between 1 and 4.")
