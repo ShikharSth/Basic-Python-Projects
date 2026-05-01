@@ -14,4 +14,10 @@ while True:
         to_do_list.append(task)
         print(f"Task '{task}' added to the list.")
     
-    
+    elif choice == '2':
+        if to_do_list:
+            print("\nYour To-Do List:")
+            for idx, task in enumerate(to_do_list, start=1):
+                print(f"{idx}. {task}")
+        else:
+            print("Your to-do list is empty.")
